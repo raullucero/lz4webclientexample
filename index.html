@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test for upload file</title>
+
+  <script type="text/javascript" src="node_modules/lib/lz4.js"></script>
+</head>
+<body>
+    <div>
+  		<label>Input data</label>
+  		<div id="inputSize"></div>
+      <input type="file" id="files" name="files" />
+
+  	</div>
+  	<div>
+  		<label>Compressed data</label>
+  		<div id="outputSize"></div>
+  		<p>
+  			<textarea id="output" rows="5" cols="50"></textarea>
+  		</p>
+  	</div>
+    <script type="text/javascript" src="build.js"></script>
+
+</body>
+</html>
